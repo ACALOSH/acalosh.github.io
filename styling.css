@@ -4,6 +4,7 @@
 }
 .page{
     background-image: url("backgrd.jpg");
+    height: 100%;
 }
 nav{
     opacity: 100%;
