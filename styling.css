@@ -3,13 +3,16 @@
     font-family:'Courier New', Courier, monospace;
 }
 body{
+    height: 100%;
     margin:0
 }
 html{
     height:100%
 }
 .page{
+    padding: 20px;
     background-image: url("backgrd.jpg");
+    background-size: auto;
     height: 100%;
 }
 nav{
@@ -23,6 +26,7 @@ a{
     color: rgb(255, 255, 255);
 }
 h1{
+    font-size: 3em;
     color: white;
 }
 h2{
@@ -36,4 +40,10 @@ button{
     width: auto;
     border-width: 0%;
     border-style: none;
+}
+p{
+    width: fit-content;
+    color: white;
+    padding-top: 10%;
+    padding-left: 30%
 }
