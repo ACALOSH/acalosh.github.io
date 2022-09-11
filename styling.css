@@ -6,7 +6,14 @@
     background-image: url("backgrd.jpg");
 }
 nav{
-    color: rgb(255, 255, 255);
     opacity: 100%;
-
+}
+a{
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: white;
+}
+h2{
+    color: rgb(255, 255, 255)
 }
