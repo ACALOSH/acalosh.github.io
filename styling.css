@@ -3,10 +3,10 @@
     font-family:'Courier New', Courier, monospace;
 }
 html{
-    background-image: "backgrd.jpg";
+    background-image: url("backgrd.jpg");
 }
 nav{
     color: rgb(255, 255, 255);
     opacity: 100%;
-    
+
 }
