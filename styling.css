@@ -2,7 +2,7 @@
 *{
     font-family:'Courier New', Courier, monospace;
 }
-html{
+.page{
     background-image: url("backgrd.jpg");
 }
 nav{
