@@ -6,7 +6,7 @@ html{
     background-image: "backgrd.jpg";
 }
 nav{
-    color: aliceblue;
-    background-color: black;
-    opacity: 30%;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    
 }
