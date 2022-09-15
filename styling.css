@@ -47,3 +47,8 @@ p{
     padding-top: 10%;
     padding-left: 30%
 }
+.project{
+    border-color: white;
+    border-width: 1px;
+    border-radius: 1%;
+}
