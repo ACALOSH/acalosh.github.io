@@ -48,6 +48,9 @@ p{
     padding-top: 10%;
     padding-left: 30%
 }
+.projects_info{
+    width: 90%;
+}
 .project{
     border-color: white;
     border-width: 1px;
