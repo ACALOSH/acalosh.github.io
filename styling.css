@@ -51,6 +51,9 @@ p{
 .projects_info{
     padding: 10px;
     width: 80%;
+    height: 80%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .project{
     padding: 5px;
