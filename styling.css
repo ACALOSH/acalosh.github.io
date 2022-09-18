@@ -53,6 +53,8 @@ p{
     width: 80%;
 }
 .project{
+    padding: 5px;
+    border-style: double;
     border-color: white;
     border-width: 1px;
     border-radius: 1%;
