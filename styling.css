@@ -72,3 +72,7 @@ ul{
 h3{
     color: white;
 }
+.before{
+    border-style: dashed;
+    border-color: white;
+}
