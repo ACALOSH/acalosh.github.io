@@ -138,7 +138,7 @@
                             <p style="padding-left: 0; padding-top: 10px; margin: auto; font-size: 12px;">snapshot of dissertation prototype</p>
                             </div>
                             </div>
-                            <img src="Thesispic.png" style="border-radius: 5px; width:100%">
+                            
                             <h3>Background</h3>
                             <p style="padding-left: 0; padding-top:3%">
                                 The dashboard of Speckled Computing is main tool for researchers to view the data they are collecting and to view the status of the sensors that are being used in their project. However, the range of research being conducted and the types of data being collected is vast. Some projects focus on air pollution and it's affects on health, other's focus on rehabilitating patients with respitaory illnesses and other projects focus on the machine modeling of the data collected. This creates a huge difference in what data is important to each project.
@@ -146,13 +146,24 @@
                             </p>
                         </div>
                         <div>
-                            <img src="Thesispic2.png" style="border-radius: 5px; width:100%">
+                            <div style="display: flex;">
+                                <div style="width: 80%; margin: auto;">
+                                <img src="Thesispic.png" style="border-radius: 5px; width:100%">
+                                <p style="padding-left: 0; padding-top: 10px; margin: auto; font-size: 12px;">snapshot of dissertation prototype</p>
+                                </div>
+                                </div>
                             <h3>Designing the Visualisation System</h3>
                             <p style="padding-left: 0; padding-top:3%">
                                 To determine what visualisations were most relevant to a researcher I first dissected what kind of data each project was potentially gathering to figure out the domainspace of the data i was working with. With three possible sensors for each project, (airspeck portable, airspeck stationary, and respeck) there were a multitude of variables being collected such as temperature, particle matter levels, heart rate and activity level. Once I had gathered all possible values, I then looked at all the potential combinations of data that could potentially be made into visualisations (steps vs temperature, heart rate vs particle matter). This was done within a sensors data collections and between sensors as well. From there redundant or irrelavant visualisations were eleminated. The remaining were sorted by percieved usefulness with heuristics such as data-richness being taken into account while sorting. The list was then split by sensor data (data pertaining to just the respeck data or airspeck data being seperated while mixed data was given its own group).
                             </p>
                         </div>
                         <div>
+                            <div style="display: flex;">
+                                <div style="width: 80%; margin: auto;">
+                                <img src="Thesispic2.png" style="border-radius: 5px; width:100%">
+                                <p style="padding-left: 0; padding-top: 10px; margin: auto; font-size: 12px;">snapshot of dissertation prototype</p>
+                                </div>
+                                </div>
                             <h3>Programming</h3>
                             <p style="padding-left: 0; padding-top:3%">The construction of this webpage was done using Mako templating and Pyramid as the backend framework. The dashboard uses this structure so programming it in the same language makes it easy to integrate into the already exisiting infastructure. </p>
                         </div>
