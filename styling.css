@@ -87,3 +87,31 @@ h3{
     padding:15px;
     margin: 20px;
 }
+.proj_title{
+    padding-left:20px; 
+    font-size: 2em;
+}
+
+.prot_div{
+    display: flex; 
+    padding-left: 100px; 
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.caption{
+    padding-left: 0; 
+    padding-top: 10px; 
+    margin: auto; 
+    font-size: 12px;
+}
+.link{
+    font-size: 15px; 
+    width:10%
+}
+.arrowbtn{
+    background: url(whitearrow.png);
+    background-size: contain;
+    padding-top: 20%;
+    margin-top: 90%;
+    background-repeat: no-repeat;
+}
